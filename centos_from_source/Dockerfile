@@ -46,4 +46,4 @@ RUN cd /tmp \
  && rm -rf /usr/src/root /tmp/*
 
 ENV PYTHONPATH /usr/local/lib
-CMD ["root", "-b"]
+CMD ["root", "-l"]
