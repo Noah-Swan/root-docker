@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install --yes libglu1-mesa-dev freeglut3-dev mesa-
     chmod +x /entry_point.sh
 
 ENTRYPOINT ["/entry_point.sh"]
-CMD ["root", "-b"]
+CMD ["root", "-l"]
